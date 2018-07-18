@@ -57,7 +57,7 @@ Out[33]: <keras.callbacks.History at 0x8b3e896828>
 =============================================================================================================
 
 Convolutional Layer: 3
-input_shape = (64,64,3)
+input_shape = (128,128,3)
 Added Dropout for avoiding over fitting. Dropout rate = 0.5
 With these changes acc of test set has being increased to 88%
 

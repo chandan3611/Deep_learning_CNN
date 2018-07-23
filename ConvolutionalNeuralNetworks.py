@@ -109,9 +109,7 @@ classifier.fit_generator(training_set,
 
 #-------------------------------------------------------------------------------------------------------
 '''
-Our CNN model is ready we see that model is having accuracy of 78% of test set.
-Moving further I will one small application of this CNN model. In which we will try to predict
-one single image. Wheather it is cat or dog.
+Our CNN model is ready we see that model is having accuracy of 88% of test set. Moving further I will show one application of this CNN model. In which we will try to predict one single image. Wheather it is cat or dog.
 We have two images one of cat and other one of dog. And same we will be predicting using this model.
 Data present at dataset\single_prediction
 '''
@@ -155,8 +153,7 @@ test_image:
 
 # Add 4th dimension
 '''
-THis 4th dimension crossponds to batch. Function of neural network cannot accept single input 
-image. It only accepts inputs in a batch, even if batch contains only one image.
+THis 4th dimension crossponds to batch. Function of neural network cannot accept single input image. It only accepts inputs in a batch, even if batch contains only one image.
 Here we will have 1 batch on one input but we can have several batches of several inputs.
 expand_dims() : This function takes two images. 1st argument = test_image and 2nd argument is axis which represent index of new dimention.
 '''
